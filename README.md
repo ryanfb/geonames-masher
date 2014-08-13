@@ -1,7 +1,7 @@
 GeoNames Masher
 ===============
 
-Tool for general-purpose mashing of a toponym-containing CSV against GeoNames.
+Tool for general-purpose mashing of a toponym-containing CSV against GeoNames. Inspired by [Pleiades+](https://github.com/ryanfb/pleiades-plus).
 
 Usage:
 
@@ -10,6 +10,8 @@ Usage:
 The masher assumes your input CSV (not GeoNames CSV) has column headers, so that you can specify the columns containing toponyms as additional command line arguments.
 
 GeoNames matches for all toponym columns will be newline-separated in an additional column on the output.
+
+Download GeoNames data from [here](http://download.geonames.org/export/dump/). You can either use allCountries or just concatenate together the countries your source data deals with.
 
 License
 -------
