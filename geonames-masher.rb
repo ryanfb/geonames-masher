@@ -4,7 +4,7 @@ Encoding.default_external = Encoding::UTF_8
 Encoding.default_internal = Encoding::UTF_8
 
 require 'csv'
-require 'lib/icu4j-53_1.jar'
+require File.join(File.dirname(__FILE__), 'lib/icu4j-53_1.jar')
 
 def normalize(input_string)
   if input_string.nil?
